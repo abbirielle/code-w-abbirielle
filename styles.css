@@ -1,0 +1,76 @@
+/* Styles.CSS*/
+
+/*styling the body*/
+body {
+    font-family: Lobster, cursive;
+    margin: 0;
+    padding: 0;
+    background-color:#FFB6C1;
+    color: #000000;
+}
+
+
+/*styling the heading*/
+header {
+    background-color: #000000;
+    color:blue;
+    padding: 20px;
+    tex-align: center;
+}
+
+header h1 {
+    font-size: 82px;
+    margin: 0;
+}
+
+/*section styling*/
+section {
+    background-color: #FFB6C1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*section heading*/
+section h2 {
+    color: #FFB6C1;
+    font-size:68px;
+    margin-bottom:10px;
+}
+
+/*Paragraph styling*/
+section p {
+    font-size: 26px;
+    line-height: 1.6px;
+    color: #333;
+}
+
+/*section heading*/
+section h3 {
+    color: #FFB6C1;
+    font-size:100px;
+    margin-bottom:10px;
+}
+
+/*Link styling*/
+a {
+    color: #E6E6FA;
+    text-decoration:underline;
+}
+
+/*Footer Styling*/
+footer {
+    background-color: #E6E6FA;
+    color: lavendar;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p (
+margin: 0;
+font-size: 14px;
+)
