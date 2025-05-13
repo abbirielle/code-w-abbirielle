@@ -78,17 +78,16 @@ a {
 }
 
 /*Footer Styling*/
-footer {
-    background-color: #E6E6FA;
-    color: lavender;
-    text-align: center;
-    padding: 15px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+footer ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  display: inline-block;
+  margin: 10px auto;
 }
 
-footer p {
-    margin: 0;
-    font-size: 14px;
+footer ul li {
+  font-size: 16px;
+  margin: 5px 0;
+  color: black;
 }
