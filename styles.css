@@ -10,19 +10,45 @@ body {
     font-size: 20px;
 }
 
+/* container for centered content */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
 /*styling the heading*/
 header {
-    background-color: #000000;
-    color:blue;
+    background-color: #FFB6C1;
+    color: #000000;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
-    font-size: 82px;
+    font-size: 48px;
     margin: 0;
 }
+
+/navigation bar styling */
+nav {
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: pink;
+}
+
 /* Unordered list styling */
 ul {
     list-style-type:disc;
@@ -51,9 +77,10 @@ section {
 }
 
 /*section heading*/
-section h2 {
-    color: #FFB6C1;
-    font-size:98px;
+section h2,
+section h3 {
+    color: #000;
+    font-size:36px;
     margin-bottom:10px;
 }
 
@@ -64,30 +91,36 @@ section p {
     color: #333;
 }
 
-/*section heading*/
-section h3 {
-    color: #FFB6C1;
-    font-size:100px;
-    margin-bottom:10px;
+/* footer styling */
+footer {
+    background-color: #E6E6FA;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
 }
 
-/*Link styling for all Links*/
-a {
-    color: #E6E6FA; /* Default link color*/
-    text-decoration: underline;
+footer p {
+    margin-top: 10px;
 }
 
-/*Footer Styling*/
 footer ul {
   list-style-type: disc;
-  padding-left: 20px;
-  text-align: left;
-  display: inline-block;
-  margin: 10px auto;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0;
 }
 
 footer ul li {
-  font-size: 16px;
-  margin: 5px 0;
-  color: black;
+  list-style: disc inside;
 }
+
+/* General Link Styling */
+a {
+    color: #E6E6FA;
+    text-decoration: underline;
+}
+    
+
