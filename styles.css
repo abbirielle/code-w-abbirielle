@@ -20,17 +20,31 @@ body {
 /*styling the heading*/
 header {
     background-color: #FFB6C1;
-    color: #000000;
-    padding: 20px;
-    text-align: center;
+    padding: 10px 20px;
 }
 
-header h1 {
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-container h1 {
     font-size: 48px;
     margin: 0;
+    flex: 1;
 }
 
-/navigation bar styling */
+/* profile picture styling */
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba (0, 0, 0, 0.2);
+}
+
+/* navigation bar styling */
 nav {
     background-color: #000;
     text-align: center;
@@ -122,5 +136,14 @@ a {
     color: #E6E6FA;
     text-decoration: underline;
 }
-    
+
+/* picture styling */
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    position: static;
+}
 
